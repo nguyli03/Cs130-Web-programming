@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*HTML and Body Styles*/
+html {
+	background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white 15%, pink 85%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( white 15%, pink 85%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( white 15%, pink 85%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient (white 15%, pink 85%); /* Standard syntax */
+}
+body{
+	color:#540661;
+	font-family: arial;
+}
+
+/*Heading Styles*/
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 80px;
+	display: block;
+	width: 100%;
+	font-family: cursive;
+}
+/*Navigation Styles*/
+nav a {
+	padding: 20px;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin-bottom: 0px;
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNagivation a:active {
+	background-color: #767879;
+	color:white;
+}
+
+nav.horizontalNavigation a img{
+	border:none;
+}
+
+/*Footer Style*/
+footer {
+	clear: left;
+	background-color:#540661;
+	color:white;
+	padding: 20px;
+	font-size: 1.2em;
+
+}
+/*Image Styles*/
+div#first img{
+	position: relative;
+	padding-top: 0;
+}
+/*Button Styles*/
+input {
+    background-color: #540661; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 8px;
+    font-family: cursive;
+}
+

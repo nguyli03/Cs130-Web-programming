@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+/*Horizontal Nagivation Styles*/
+
+nav.horizontalNavigation li {
+	display: block;
+	float: left;
+	width: 20%;
+	border: 0;
+	margin:0;
+}
+
+nav.horizontalNavigation a{
+	display: block;
+	text-align: center; 
+}
+
+/*Article and div styles*/
+
+article {
+	width: 100%;
+	margin: 2%;
+}
+
+div {
+	padding: 20px;
+	margin:20px;
+	display: inline-block;
+	font-size: 1.2em;
+}
+/*Footer Style*/
+footer {
+	clear: left;
+	width: 100%;
+	text-align: center; 
+}
+
+footer::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+/*Picture Style*/
+
+div img {
+	float: left;
+	width: 30%;
+	display:inline-block;
+}
+
+
+/*H1 styles*/
+h1 {
+	display: block;
+	width: 100%;
+	margin:-10px;
+}

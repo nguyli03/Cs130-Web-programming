@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*HTML and Body Styles*/
+html {
+	background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white 15%, pink 85%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( white 15%, pink 85%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( white 15%, pink 85%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient (white 15%, pink 85%); /* Standard syntax */
+}
+body{
+	color:#540661;
+  font-family: arial;
+}
+
+/*Heading Styles*/
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+  font-family: cursive;
+}
+/*Navigation Styles*/
+nav a{
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNagivation a:active {
+	background-color: #767879;
+	color:white;
+}
+
+nav.horizontalNavigation a img{
+	border:none;
+}
+
+/*Div styles*/
+div {
+	display: inline-block;
+}
+
+div img {
+	margin-left: 70%;
+	margin-right: 50%;
+}
+
+/*Footer Style*/
+footer {
+	clear: left;
+	background-color:#540661;
+	color:white;
+	font-size: 1.2em;
+}
+/*Table Styles*/
+table, tr, td {
+	border: 1px ridge purple;
+	border-collapse: collapse;
+
+}
+tr, td {
+	padding: 10px;
+}
+
+tr.title td{
+	text-align: center;
+	font-weight: bold;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

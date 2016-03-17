@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+/*Horizontal Nagivation Styles*/
+
+nav.horizontalNavigation li {
+	display: block;
+	float: left;
+	width: 20%;
+	border: 0;
+	margin:0;
+}
+
+nav.horizontalNavigation a{
+	display: block;
+	padding: 20px;
+}
+
+/*Article and div styles*/
+
+article {
+	width: 90%;
+	float: none;
+	margin: 2%;
+}
+
+div {
+	width: 40%;
+	float: left;
+	margin:2%;
+}
+
+div#content {
+	width: 50%;
+	margin:20px;
+	padding: 20px
+}
+
+div#contact {
+	padding: -10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 30%
+}
+
+/*Footer Style*/
+footer {
+	clear: left;
+	width: 100%;
+	padding: 20px;
+}
+
+footer::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+/*Picture Style*/
+img#pic {
+	width:30%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	position: relative;
+}
+/*H1 styles*/
+h1 {
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+
+}

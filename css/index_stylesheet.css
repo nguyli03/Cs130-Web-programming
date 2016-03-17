@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*HTML and Body Styles*/
+html {
+	background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white 15%, pink 85%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( white 15%, pink 85%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( white 15%, pink 85%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient (white 15%, pink 85%); /* Standard syntax */
+}
+body{
+	color:#540661;
+	font-family: arial;
+}
+
+/*Heading Styles*/
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	font-family: cursive;
+}
+/*Navigation Styles*/
+nav.horizontalNavigation a{
+
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center; 
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNagivation a:active {
+	background-color: #767879;
+	color:white;
+}
+
+nav.horizontalNavigation a img{
+	border:none;
+}
+/*Div styles*/
+div#contact a{
+	color:#36053E;
+}
+
+div#contact ul {
+	list-style-type: square;
+}
+
+div#contact {
+	border-style: ridge;
+	border-color: #540661;
+}
+/*Footer Style*/
+footer {
+	background-color:#540661;
+	color:white;
+	font-size: 1.2em;
+	text-align: center; 
+}
+/*Button Styles*/
+input {
+    background-color: #540661; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 8px;
+    font-family: cursive;
+}
+/*List Styles*/
+.unilist li {
+	list-style-type: none;
+	/*line-height: 1em;*/
+}
+.unibull { 
+	float: left; 
+}
+.u1:before { 
+	content: "\25C9"; 
+}}
+
